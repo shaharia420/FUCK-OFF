@@ -112,7 +112,7 @@ os.system('espeak -a 300 "Whatsapp 01951153459 "')
 os.system('espeak -a 300 "version 1.0 "')
 os.system('espeak -a 300 "from bangladesh "')
 os.system('espeak -a 300 "tool random x file "')
-os.system('espeak -a 300 "enjoy everyone "')
+os.system('espeak -a 300 "enjoy all brother "')
 #__________________| MAIN |__________________#
 def menu():
         try:
