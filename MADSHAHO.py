@@ -145,6 +145,13 @@ def menu():
                                         plist.append('first786')
                                         plist.append('firstlast123')
                                         plist.append('firstlast786')
+					plist.append('last first')
+					plist.append('last123')
+					plist.append('last1234')
+					plist.append('last12345')
+					plist.append('57273200')
+			                plist.append('57575751')
+					plist.append('57575752')
                                 else:
                                         try:
                                                 clear()
