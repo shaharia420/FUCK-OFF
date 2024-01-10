@@ -145,7 +145,6 @@ def menu():
                                         plist.append('first786')
                                         plist.append('firstlast123')
                                         plist.append('firstlast786')
-					plist.append('last first')
 					plist.append('last123')
 					plist.append('last1234')
 					plist.append('last12345')
