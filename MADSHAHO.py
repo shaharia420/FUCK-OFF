@@ -318,7 +318,7 @@ def api1(ids,names,passlist):
                                 'X-FB-Connection-Bandwidth':str(random.randint(2e7,3e7)),
                                 'X-FB-Net-HNI': str(random.randint(11111, 99999)),
                                 'X-FB-SIM-HNI': str(random.randint(11111, 99999)),
-                                'User-Agent':"[FBAN/FB4A;FBAV/54.0.0.3795;FBBV/66205985[FBAN/Orca-Android;FBAV/247.0.0.30.84;FBPN/com.facebook.orca;FBBV/410140983;FBLC/en_US;FBCA/arm64-v8a:;FBCR/Ufone;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X695;FBSV/11;FBDM/{density=2.0,width=720,height=1440};]",
+                                'User-Agent':"[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";'[FBAN/FB4A;FBAV/400.0.0.37.76;FBBV/444698465;FBDM/{density=1.875,width=720,height=1465};FBLC/en_US;FBRV/0;FBCR/SMART;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A035F;FBSV/13;FBOP/1;FBCA/arm64-v8a:;]",
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
