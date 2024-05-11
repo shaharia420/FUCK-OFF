@@ -96,7 +96,7 @@ logo=(f"""
 | {B} FACEBOOK PAGE :> GAMING SHAHO
 | {G} WHATSAPP :> 01951153459
 | {B} TOOL :> RANDOM
-| {G} STATUS :> FREE 
+| {G} STATUS :> FREE V>1 BETA
 <--------------------------------------------------------> """)
 os.system('espeak -a 300 "installing starting free hack "')
 os.system('espeak -a 300 "author GAMING SHAHO "')
