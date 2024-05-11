@@ -77,10 +77,10 @@ A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;46m';B = '
 def clear():os.system('clear');print(logo)
 def linex():print(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 #__________________| UA |__________________#
-def shaho():
-	model = random.choice(["SM-J200H", "SM-J320H", "SM-J400F", "SM-J510H", "SM-G570F", "SM-J600FN", "SM-J710F", "SM-J730F", "SM-J810M", "SM-N950X", "SM-A013F", "SM-A500M", "SM-A515F"])
-	ua = "[FBAN/FB4A;FBAV/451.0.0.45.109;FBBV/449217850;[FBAN/FB4A;FBAV/309.0.0.47.119;FBBV/277444756;FBDM/"+"{density=3.0,width=1080,height=1920}"+f";FBLC/en_US;FBRV/279865282;FBCR/Willkommen;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/{model};FBSV/5.1.1;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
-	return ua
+#def shaho():
+#	model = random.choice(["SM-J200H", "SM-J320H", "SM-J400F", "SM-J510H", "SM-G570F", "SM-J600FN", "SM-J710F", "SM-J730F", "SM-J810M", "SM-N950X", "SM-A013F", "SM-A500M", "SM-A515F"])
+#	ua = "[FBAN/FB4A;FBAV/451.0.0.45.109;FBBV/449217850;[FBAN/FB4A;FBAV/309.0.0.47.119;FBBV/277444756;FBDM/"+"{density=3.0,width=1080,height=1920}"+f";FBLC/en_US;FBRV/279865282;FBCR/Willkommen;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/{model};FBSV/5.1.1;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
+#	return ua
 #__________________| LOGO |__________________#
 logo=(f"""
   
