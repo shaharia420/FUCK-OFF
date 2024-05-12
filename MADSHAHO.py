@@ -520,7 +520,7 @@ def rndm1(uid,passlist):
                                 "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
                                 'X-FB-Friendly-Name':'authenticate',
                                 'X-FB-Connection-Type':'unknown',
-                                'User-Agent':ua,
+                                'User-Agent':shaho(),
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
