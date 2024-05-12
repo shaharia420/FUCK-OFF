@@ -743,45 +743,8 @@ def rndm3(uid,passlist):
                 pass
 #__________________| END |__________________#
 try:
-#----------------APPROVAL-------------#
-#def contact_admin():
-  os.system('xdg-open https://www.facebook.com/profile.php?id=61553833635592')
-  
-  logo=(f"""
-  
-              _____ _    _          _    _  ____  
-             / ____| |  | |   /\   | |  | |/ __ \ 
-            | (___ | |__| |  /  \  | |__| | |  | |
-             \___ \|  __  | / /\ \ |  __  | |  | |
-             ____) | |  | |/ ____ \| |  | | |__| |
-            |_____/|_|  |_/_/    \_\_|  |_|\____/ 
-            
-<-------------------------------------------------------->
-| {G} APPROVAL FUNCTION 
-| {G} STATUS :> PAID 
-<--------------------------------------------------------> """)
-
-def approval
-  bishnu = str(os.geteuid())
-  sojib = str(os.getlogin())
-  rocky = join(bishnu+sojib)
-  nuramin = (f'SUYAIB-{rocky}')
-  req_link =httpx.get("https://github.com/shaharia420/FUCK-OFF/blob/main/APPROVE.txt")
-  if nuramin in req_link:
+ 
     menu()
-  else:
-    os.system('clear')
-    print(logo)
-    print("YOUR KEY : "+nuramin)
-    print("YOUR KEY IS NOT APPROVED... ")
-    print("AT FIRST COPY YOUR KEY AND SEND TO ADMIN")
-    tarek = input("ENTER 143 FOR CONTACT ADMIN :")
-    if tarek in ['143']:
-        contact_admin()
-    else:    
-      approval()
-	
-    
 except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
