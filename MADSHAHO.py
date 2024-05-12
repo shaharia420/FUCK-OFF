@@ -318,7 +318,7 @@ def api1(ids,names,passlist):
                                 'X-FB-Connection-Bandwidth':str(random.randint(2e7,3e7)),
                                 'X-FB-Net-HNI': str(random.randint(11111, 99999)),
                                 'X-FB-SIM-HNI': str(random.randint(11111, 99999)),
-                                'User-Agent':"[FBAN/FB4A;FBAV/407.0.0.30.97;FBBV/440412261;FBDM/{density=2.25,width=720,height=1400};FBLC/en_Qaau_US;FBRV/369757394;FBCR/Vi Bangladesh;FBMF/Realme;FBBD/Realme;FBPN/com.facebook.katana;FBDV/RMX3286;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]",
+                                'User-Agent':"[FBAN/FB4A;FBAV/407.0.0.30.97;FBBV/440412261;FBDM/{density=2.25,width=720,height=1400};FBLC/en_Qaau_US;FBRV/369757394;FBCR/Vi WIFI;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/MI 9;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]",
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
