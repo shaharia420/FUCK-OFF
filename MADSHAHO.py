@@ -761,7 +761,7 @@ try:
 | {G} STATUS :> PAID 
 <--------------------------------------------------------> """)
 
-def approval():
+def approval
   bishnu = str(os.geteuid())
   sojib = str(os.getlogin())
   rocky = join(bishnu+sojib)
