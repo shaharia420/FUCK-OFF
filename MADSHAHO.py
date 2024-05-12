@@ -744,7 +744,7 @@ def rndm3(uid,passlist):
 #__________________| END |__________________#
 try:
 #----------------APPROVAL-------------#
-def contact_admin():
+#def contact_admin():
   os.system('xdg-open https://www.facebook.com/profile.php?id=61553833635592')
   
   logo=(f"""
