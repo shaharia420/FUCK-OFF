@@ -764,7 +764,7 @@ def contact_admin():
 def approval():
   bishnu = str(os.geteuid())
   sojib = str(os.getlogin())
-  rocky = ".join(bishnu+sojib)
+  rocky = join(bishnu+sojib)
   nuramin = (f'SUYAIB-{rocky}')
   req_link =httpx.get("https://github.com/shaharia420/FUCK-OFF/blob/main/APPROVE.txt")
   if nuramin in req_link:
