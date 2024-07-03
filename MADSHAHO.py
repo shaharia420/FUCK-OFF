@@ -274,6 +274,25 @@ os.system('espeak -a 300 "version 1.0 "')
 os.system('espeak -a 300 "from bangladesh "')
 os.system('espeak -a 300 "tool random x file "')
 os.system('espeak -a 300 "enjoy all brother "')
+    #====SCRIPT PASSWORD SYSTEM===
+
+
+import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input(' \033[0;92mEnter Username: ')
+    password = input(' \033[0;93mEnter Password: ')
+
+    if username == 'm' and password == 'n':
+        print(' \033[0;92mYou Have Successfully Logged in.')
+        break
+    else:
+        print(' Incorrect Pass Please Trying ')
+        attemps += 1
+        continue
+os.system('clear')
 #__________________| MAIN |__________________#
 def menu():
         try:
