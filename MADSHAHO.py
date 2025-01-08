@@ -367,7 +367,7 @@ def api1(ids,names,passlist):
                                 'X-FB-Connection-Bandwidth':str(random.randint(2e7,3e7)),
                                 'X-FB-Net-HNI': str(random.randint(11111, 99999)),
                                 'X-FB-SIM-HNI': str(random.randint(11111, 99999)),
-                                'User-Agent':shaho(),
+                                'User-Agent': ua,
                                 'Accept-Encoding':'gzip, deflate',
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
